@@ -1,0 +1,12 @@
+{
+	"name": "hamster-uploader",
+	"version": "0.0.0",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"control": "*",
+		"async": "*",
+		"archiver":"*"
+	}
+}

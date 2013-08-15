@@ -1,0 +1,57 @@
+[{
+
+		"project": "test",
+		"release": "123",
+		"servers": ["amazon_test"],
+
+
+		"shared": {
+			"user": "imesh"
+		},
+
+		"files": [
+				"file1.txt",
+				"file2.txt",
+				"file3.txt",
+				"file4.txt",
+				"sign_test.exe"
+		],
+
+		"certificates": [
+				"bandoo_media.spc"
+		],
+		"keys": [
+				"bandoo_media.der"
+		],
+
+		"sign": [{
+				"file": "sign_test.exe",
+				"spc": "bandoo_media.spc",
+				"key": "bandoo_media.der"
+			}
+		],
+
+		"deploy": {
+			"file1.txt": {
+				"dir": "~/target",
+				"name": "file1-uplloaded.txt"
+			},
+			"file2.txt": {
+				"dir": "~/target",
+				"name": "file2-uploaded.txt"
+			},
+			"file3.txt": {
+				"dir": "~/target2",
+				"name": "file3-uploaded.txt"
+			},
+			"file4.txt": {
+				"dir": "~/target2",
+				"name": "file4-uploaded.txt"
+			},
+			"sign_test.exe":{
+				"dir":"~/target-download",
+				"name":"sign-test.exe"
+			}
+		}
+	}
+]
