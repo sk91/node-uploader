@@ -6,7 +6,7 @@
 
 
 		"shared": {
-			"user": "imesh"
+			"user": "test"
 		},
 
 		"files": [
@@ -18,16 +18,16 @@
 		],
 
 		"certificates": [
-				"bandoo_media.spc"
+				"test.spc"
 		],
 		"keys": [
-				"bandoo_media.der"
+				"test.der"
 		],
 
 		"sign": [{
 				"file": "sign_test.exe",
-				"spc": "bandoo_media.spc",
-				"key": "bandoo_media.der"
+				"spc": "test.spc",
+				"key": "test.der"
 			}
 		],
 
