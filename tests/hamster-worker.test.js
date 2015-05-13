@@ -14,7 +14,7 @@ describe("Hamster worker", function(){
 
 
     "shared": {
-      "user": "imesh"
+      "user": "test"
     },
 
     "files": [
